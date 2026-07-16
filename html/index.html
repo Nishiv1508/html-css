@@ -27,7 +27,9 @@
           height="50px"
           width="50px"
         />
-        <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
+        <p id="post-info">
+          Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
+        </p>
         <br />
         <img
           src="img/post-img.jpg"
@@ -97,7 +99,7 @@
       <p>Hopefully you learned something new here. See you next time!</p>
 
       <h3>Related posts</h3>
-      <ul>
+      <ul class="li-selector">
         <li>
           <div class="img-1">
             <img
@@ -107,7 +109,7 @@
               width="50px"
             />
             <a href="#">How to learn Web Development</a><br />
-            <p>By Jonas Scmedtmann</p>
+            <p class="auth-name">By Jonas Scmedtmann</p>
           </div>
         </li>
         <li>
@@ -119,7 +121,7 @@
               width="50px"
             />
             <a href="#">The Unkown Powers Of CSS</a><br />
-            <p>By Jim Dilion</p>
+            <p class="auth-name">By Jim Dilion</p>
           </div>
         </li>
         <li>
@@ -131,12 +133,14 @@
               width="50px"
             />
             <a href="#">Why Javascripth is Awsome</a><br />
-            <p>By Matilda</p>
+            <p class="auth-name">By Matilda</p>
           </div>
         </li>
       </ul>
     </article>
 
-    <footer><p>Copyright &copy; 2026 The Code Magazine</p></footer>
+    <footer>
+      <p class="copyright">Copyright &copy; 2026 The Code Magazine</p>
+    </footer>
   </body>
 </html>

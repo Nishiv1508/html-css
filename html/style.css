@@ -35,3 +35,21 @@ footer p {
   font-size: 10px;
   text-align: center;
 }
+
+#post-info {
+  font-style: italic;
+  font-size: 18px;
+}
+
+.auth-name {
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+.copyright {
+  font-size: 10px;
+}
+
+.li-selector {
+  list-style: none;
+}
