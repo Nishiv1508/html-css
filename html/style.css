@@ -81,3 +81,16 @@ li:last-child {
 li:nth-child(odd) {
   color: red;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+a:active {
+  background-color: rgb(170, 253, 5);
+}
