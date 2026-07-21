@@ -1,0 +1,560 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;  /*border box ka matlab ki border tag (eg-div) ke andar vali side pe aayegi na ki bahr vali. Normallly jo border property use hoti hai usme border element ya tag ke bahr ki side aati hai */
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*nav amazon logo*/
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/*nav address part*/
+.nav-address{
+    height: 45px;
+    padding-top: 8px;
+}
+
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem; 
+    margin-left: 15px;
+}
+
+.add-second{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/*nav search*/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px; 
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input{
+    width: 550px;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: ceter;
+    align-items: center;
+    font-size: 1.2rem;
+    padding-left: 5px;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+/*nav-lang*/
+.nav-lang{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lang{
+    font-size: 14px;
+}
+
+.lang-drop-down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Nav-signin*/
+.nav-signin{
+    height: 45px;
+    padding-top: 8px;
+}
+
+.hello{
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.account{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+/*Nav-order*/
+.nav-orders{
+    height: 45px;
+    padding-top: 8px;
+}
+
+.returns{
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.order{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+/*Nav-cart*/
+.nav-cart{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 11px 0px 2px;
+}
+
+.cart-icon{
+    transform: scale(1.2);
+}
+
+.cart{
+    padding-left: 2px;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+/*MENU BAR*/
+/*ALL*/
+.menu{
+    height: 40px;
+    width: 100%;
+    background-color: #232f3e;
+    color: white;
+    font-weight: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.full-menu{
+    height: 35px;
+    width: 58px;
+    margin-left: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-icon{
+    display: flex;
+}
+
+.ALL{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/*menu-deals*/
+.menu-deals{
+    height: 35px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+/*Customer-service*/
+.customer-service{
+    height: 35px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+/*Registry*/
+.registry{
+    height: 35px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+/*Gift*/
+.Gift{
+    height: 35px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+/*sell*/
+.sell{
+    height: 35px;
+    width: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+/*main*/
+.main{
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border2:hover{
+    border: 5px solid black;
+}
+
+.left-slide{
+    width: 84px;
+    height: 250px;
+    position: absolute;
+    left: 0px;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-arrow{
+    width: 34px;
+    height: 52px;
+    font-size: 3rem;
+}
+
+.right-slide{
+    width: 84px;
+    height: 250px;
+    position: absolute;
+    right: 0px;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-arrow{
+    width: 34px;
+    height: 52px;
+    font-size: 3rem;
+}
+
+.outer-note{
+    height: 40px;
+    width: 97%;
+    background-color: white;
+    position: absolute;
+    top: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Note{
+    font-size: 14px;
+}
+.Note a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #007185;
+}
+
+/*Product*/
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(238, 199, 239);
+}
+
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box1-image{
+    background-image: url("headset.webp");
+    background-size: cover;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p{
+    color: #007185;
+}
+
+.box2-image{
+    background-image: url("CPU.jpg");
+    background-size: cover;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box3-image{
+    background-image: url("toys.jpg");
+    background-size: cover;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box4-image{
+    background-image: url("decor.jpg");
+    background-size: cover;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box5-image{
+    background-image: url("SmartWatch.jpg");
+    background-size: cover;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box6-image{
+    background-image: url("Furniture.jpg");
+    background-size: cover;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box7-image{
+    background-image: url("VideoGames.jpg");
+    background-size: cover;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box8-image1{
+    background-image: url("laptop.jpg");
+    background-size: auto;
+    height: 140px;
+    width: 45%;
+    display: inline-block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right:20px;
+}
+
+.box8-image2{
+    background-image: url("controller.jpg");
+    background-size: auto;
+    height: 140px;
+    width: 45%;
+    display: inline-block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box8-image3{
+    background-image: url("playStation.jpg");
+    background-size: auto;
+    height: 140px;
+    width: 45%;
+    display: inline-block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 20px;
+}
+
+.box8-image4{
+    background-image: url("nintendo.jpg");
+    background-size: auto;
+    height: 140px;
+    width: 45%;
+    display: inline-block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.ruler{
+    height: 5px;
+    width: 98%;
+    margin: 0px 20px 0px 20px;
+    background-color: white;
+    border-top: rgb(69, 67, 67) solid 2px;
+    margin-top: 40px;
+}
+
+/*Extra-message*/
+.extra-message{
+    height: 100px;
+    background-color: white;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.extra-message button{
+    height: 30px;
+    width: 20%;
+    background-color: #febd68;
+    color: black;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+/*Footer part*/
+.back-to-top{
+    height: 50px;
+    margin-top: 30px;
+    width: 100%;
+    background-color: #232f3e;
+    color: white;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*end part*/
+.information{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(33, 32, 41);
+    display: flex;
+    justify-content: space-around;
+}
+
+.get-to-know{
+    height: 250px;
+    width: 20%;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+.get-to-know a{
+    padding-top: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.get-to-know a:hover{
+    text-decoration: underline;
+}
+
+.make-money{
+    height: 250px;
+    width: 20%;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+.make-money a{
+    padding-top: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.make-money a:hover{
+    text-decoration: underline;
+}
+
+.payment-products{
+    height: 250px;
+    width: 20%;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+.payment-products a{
+    padding-top: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.payment-products a:hover{
+    text-decoration: underline;
+}
+
+.help-us{
+    height: 250px;
+    width: 20%;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+.help-us a{
+    padding-top: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.help-us a:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Carousel</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Inter", sans-serif;
+        color: #343a40;
+        line-height: 1;
+      }
+
+      img {
+        height: 200px;
+        border-radius: 8px;
+        transform: scale(1.5);
+        box-shadow: 0 12px 32px rgba(0, 0, 0, 0.5);
+      }
+
+      .carousel {
+        width: 800px;
+        background-color: #087f5b;
+        padding: 32px;
+        padding-left: 86px;
+        margin: 100px auto;
+        border-radius: 8px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        gap: 86px;
+        position: relative;
+      }
+
+      .testimonial-text {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.5;
+        margin-bottom: 32px;
+      }
+      .testimonial-author {
+        font-size: 14px;
+        margin-bottom: 4px;
+      }
+      .testimonial-job {
+        font-size: 12px;
+      }
+
+      .btn {
+        background-color: #fdfcfc;
+        border: none;
+        box-shadow: 10px 20px 50px rgba(0, 0, 0, 0.3);
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+
+      .btn-icon {
+        height: 24px;
+        width: 24px;
+      }
+
+      .btn1 {
+        position: absolute;
+        top: 45%;
+        left: -20px;
+      }
+
+      .btn2 {
+        position: absolute;
+        top: 45%;
+        right: -20px;
+      }
+
+      .dot-3 {
+        background-color: white;
+        color: black;
+        width: 50px;
+        position: absolute;
+        top: 100%;
+        left: 48%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="carousel">
+      <img src="maria.jpg" alt="Maria no photo" />
+      <blockquote>
+        <p class="testimonial-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+          illum distinctio laborum doloribus quam ipsum.
+        </p>
+        <p class="testimonial-author">Maria de Almeida</p>
+        <p class="testimonial-job">Product Manager at EDP Commercial</p>
+      </blockquote>
+      <button class="btn btn1">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="btn-icon"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M15.75 19.5 8.25 12l7.5-7.5"
+          />
+        </svg>
+      </button>
+      <button class="btn btn2">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="btn-icon"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="m8.25 4.5 7.5 7.5-7.5 7.5"
+          />
+        </svg>
+      </button>
+
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="dot-3"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+        />
+      </svg>
+    </div>
+  </body>
+</html>
