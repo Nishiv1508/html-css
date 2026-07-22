@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Hero Section</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Inter", sans-serif;
+        color: #343a40;
+        line-height: 1;
+      }
+
+      .hero {
+        width: 100%;
+        height: 600px;
+        background-image: url(hero.jpg);
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 15% 12%;
+      }
+      .text {
+        color: white;
+        font-weight: bold;
+        font-size: 36px;
+        width: 50%;
+      }
+
+      .inner-txt {
+        color: white;
+        /* font-weight: 20px; */
+        font-size: 18px;
+        width: 45%;
+      }
+
+      .btn {
+        width: 150px;
+        background-color: orange;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 8px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .btn:hover {
+        box-shadow: 0 5px 10px rgba(255, 255, 255, 0.5);
+      }
+      .navbar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: black;
+        color: white;
+        height: 50px;
+      }
+
+      .elements {
+        display: flex;
+        padding: 0 10%;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .ele {
+        padding: 18px 20%;
+        cursor: pointer;
+        height: 50px;
+      }
+
+      .ele:hover {
+        background-color: rgb(63, 63, 63);
+      }
+
+      .logo {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo">Logo</div>
+      <div class="elements">
+        <div class="ele" onClick="msg()">About</div>
+        <div class="ele">Home</div>
+        <div class="ele">Blogs</div>
+        <div class="ele">Contact</div>
+      </div>
+    </div>
+
+    <div class="hero">
+      <div class="text">
+        A healthy meal delivered to your door, every single day
+      </div>
+      <div class="inner-txt">
+        The smart 365-days-per-year food subscription that will make you eat
+        healthy again. Tailored to your personal tastes and nutrional needs
+      </div>
+      <div class="btn">Check Out!</div>
+    </div>
+
+    <script>
+      const msg = () => {
+        alert("Clicked");
+        let a = document.querySelector(".navbar");
+        a.style.backgroundColor = "red";
+      };
+    </script>
+  </body>
+</html>
